@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.App .counter {
+  padding: 20px;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 20px;
+}
+.counter .buttons {
+  padding: 20px;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.App .counter button {
+  padding: 10px;
+  background-color: aqua;
+  border: 1px solid #282c34;
+  width: 100px;
+  border-radius: 1cap;
+}
+.App .counter button.reset {
+  background-color: orange;
+}
